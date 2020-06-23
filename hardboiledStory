@@ -1,0 +1,148 @@
+<nodes>
+	<node>
+		<title>Start</title>
+		<tags>HR department</tags>
+		<body>Welcome home Alex. While you were away, you had 7 unread messages. Would you like me to play them for you?
+        [[Answer:Yes|HR department's message]]
+        [[Answer:No|noMessage]]</body>
+		<position x="581" y="54"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>HR department's message</title>
+		<tags></tags>
+		<body>Hi Alex! Hope you're having a Good morning! I'm just calling to check on you because I've been told you
+		haven't shown up to work for a week without giving notice. I understand these may be trying times for you, but
+		for the future, I'd recommend clearing days off for personal reasons with your supervisors first. That being
+		said, please get back to me as soon as you can with a possible date on which you can start back at work, so we
+		can work out your pay for the month. Please note, that if you do not reply to this in the next 24 hours, we'd
+		be forced to consider severance options for you.
+        [[Answer:N/A|Best friend's message]]</body>
+		<position x="857" y="405"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>noMessage</title>
+		<tags></tags>
+		<body>You have chose to NOT listen to the messages. There were people who were counting on you to listen to
+		those messages. What is wrong with you? Do you not like the ones closest to you who care enough to leave you
+		a message? You have 7 unread messages. Would you like to listen to the NOW?
+        [[Answer:Yes|HR department's message]]
+        [[Answer:No|gameover]]</body>
+		<position x="1145" y="53"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>Best friend's message</title>
+		<tags></tags>
+		<body>Hey Alex! Missed you at work again! It's no fun without you around. I was in the most
+		BOOOORING meeting today. I'll tell you all about it tonight. You're still coming to Greg's party, right?
+		RIGHT? You know I'll be all alone there tonight if you don't show up. It's going to be the absolute worst.
+		Please come. Don't be mad. but I talked to your neighbour, and he thinks you haven't left your apartment
+		the entire week. Please tell me you're not holed up in there like last time. I know you're not the happiest
+		this time of the year, with what happened, but it's been a year Alex. It's time to move on. You can't beat
+		yourself up over something you had no control over. So please leave the apartment and come out tonight.
+		*pause and sigh*  Call me when you get this
+        [[Answer:N/A|Therapist's office message]]</body>
+		<position x="1154" y="671"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>gameover</title>
+		<tags></tags>
+		<body></body>
+		<position x="1485" y="409"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>Therapist's office message</title>
+		<tags></tags>
+		<body>Hi! I'm calling from Dr.Baxler's office, to confirm your bi-weekly appointment for 7 pm this afternoon.
+		Wed like you to return to us with a confirmation as we have had you skip the past few appointments. Again,
+		this is Dr.Baxler's office, and hope you have a good day.
+        [[Answer:N/A|Mom's message]]</body>
+		<position x="1480" y="981"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>Mom's message</title>
+		<tags></tags>
+		<body>Honey, Alex, it's Mom. I haven't heard from you in a while, and I know you don't do very well this time
+		of the year with your Dad passing away. I'm not doing great either. I know it's been a tough year honey, but
+		Dad wouldn't want you to be so down. Knowing Will, he would have wanted us to think of all the good times.
+		Like when he made all those terrible bad jokes? *light chuckle*. Or when we went camping in California with
+		all the mosquitos, that we had to sleep in our car. *quieter chuckle* He was the only one who could make you
+		laugh. *light sob* It's been so long since I've seen you even smile. *break out into a full-blown sob* Don't
+		do this to yourself. Call me back when you get this. *soft sniffle*
+        [[Answer:N/A|telemarketer's message]]</body>
+		<position x="1785" y="1261"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>telemarketer's message</title>
+		<tags></tags>
+		<body>Empty Text
+		[[Answer:N/A|]]</body>
+		<position x="2092" y="1554"></position>
+		<colorID>0</colorID>
+	</node>
+	<node>
+        <title>messageSpace1</title>
+        <tags></tags>
+        <body>HELLO! HEEEELLLLOOO!! Is this thing on? CAN ANYONE HEAR ME? Oh wait, I suppose I'm so far out, it's gonna
+        take a second for this to get back to Earth. Alright, first things first. I'm not entirely sure who's on the
+        other end of this. *mutters under his breath* Looks like a civillian device. Anyway, you're the last person
+        I can talk to seeing as to how the comms are down. And the commissary. And the other half of the ship that's
+        broken off, which is now beelining for Mars. I've sent a distress beacon to SpaceY, so I'm probably gonna get
+        picked up by the next carrier craft, so I got that covered. I wonder where everyone else on the ship is.
+        Anywho, hopefully, there's someone on the other end of this line, so I haven't been talking to myself for the
+        past minute. Hey what do you know? Maybe I WON'T die of loneliness before I die from hunger or thirst.
+        Yeesh what a bummer, am I right?</body>
+        <position x="2092" y="1554"></position>
+        <colorID>0</colorID>
+    </node>
+    <node>
+        <title>messageSpace2</title>
+        <tags></tags>
+        <body>Damn, I didn't think it would work. I'm so glad you responded. My name's Dr Connor Morgan.
+        You can call me Connor, if you'd like. Or you can just call me Doc. Because of the PhD, not because I'm a
+        real doctor. Never went to med school. Too much blood everywhere. Speaking of out-of-context blood, did I
+        mention I'm losing some? Meh, should be fine. Not like it's the worst thing that can happen. Hey, look on
+        the bright side. The gravity module blew off with the rest of the ship during the explosion, so I've been
+        floating around this whole time. The damn engineers at SpaceY really wanted us to have gravity so that
+        "space travel feels natural". Well, who's floating now! Enough about me, tell me more about you.
+        What's your name? What do you do? Tell me everything. It's not like I have anywhere to be.</body>
+        <position x="2092" y="1554"></position>
+        <colorID>0</colorID>
+    </node>
+    <node>
+        <title>messageSpace3</title>
+        <tags></tags>
+        <body>That’s great! I’m really glad I have someone to talk to. I know you told me your name, but I suffer from
+        "Iwillforgetyournamia" so it would be super cool if I could just call you generic names, like “sport” or “champ”
+        or “mass murderer incarcerated for slashing 200 people’s throats”. You know. The regular stuff.
+        Just for narrative continuity, in case I forget your name down the line. The airlock is holding here, and
+        I wouldn’t dare open anything in case I blow up into hundreds of tiny little pieces. So I’m stuck here in
+        this room. Hey at least I’m in the containment unit, so if I start getting a little hungry, I can always pop
+        one of the poop bags open, grab some pre-filtered urine and wine and dine in style. Well, that's my sit-rep so
+        far. The rescue ship shouldn't be too far off now. How’s things back on Earth?</body>
+        <position x="2092" y="1554"></position>
+        <colorID>0</colorID>
+    </node>
+    <node>
+        <title>messageSpace4</title>
+        <tags></tags>
+        <body>Oh.. And I thought things were bad up here. Boy, am I glad I’m up here on a half destroyed spaceship.
+        Well, speaking of worthless spaceships, I wonder who’ll be on the next carrier craft… Fingers crossed,
+        it’ll probably be Rob. Or even Spencer. Oh damn, that’d be so cool! Those guys are the best. I was on
+        a mission with Rob once, and he had a pack of cards. The illegal kind. *whispers excitedly* Don’t tell anyone,
+        but they were made of PLASTIC. Ever since they outlawed plastic a few years ago, they’re so hard to find.
+        I had never seen a pack until then. The cards were so smooth, it slid right off your finger. Of course,
+        we had to keep it quiet in case the brig officer saw us, but we had so much fun playing that day. Aah..
+        The good old days when I wasn’t stuck in containment with absolutely no one. I actually have no idea where the
+        others are. Of course, protocol states, we should all send seperate distress beacons, and not go looking for the
+        others, but I wonder if they're okay.</body>
+        <position x="2092" y="1554"></position>
+        <colorID>0</colorID>
+    </node>
+</nodes>
