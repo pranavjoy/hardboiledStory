@@ -1,0 +1,42 @@
+title: node0
+tags: 
+colorID: 0
+position: 61,103
+---
+Hello! Can anyone hear me? Helllooo! Is anyone on this frequency? I'm Stuart, Prisoner ID 312 aboard SS-Freedom. I repeat, is anyone on this frequency? My cell door is jammed shut, Candace the ship's AI won't respond to any of my commands, and I hear no one outside on the brig. I think something terrible's happened, and I don't know what to do. If anyone at base can hear me, please, tell me what to do. I don't feel safe in a piece of machinery hurling 6000 miles an hour towards Mars. Someone, anyone please respond. 
+[[Answer:Literally anything|node1]]
+===
+title: node1
+tags: 
+colorID: 1
+position: 62,369
+---
+Oh thank God, this thing actually works. Thank you for responding. I don't know what to do. I need to send an emergency beacon to NASA to let them know I'm alive and need help. But to do that I need to get out of the room. And the only way to do that is to get this door open. I could also try fiddling with the panel that calls the ship's AI "Candace", and try to get it to open the door. Or, I could try and bust the door open by taking apart the bed frame and using the metal part as a hinge on the door. Either way, I need to do something fast. What do you think I should do? Should I bust the door open, or try to hack into the panel?
+ [[Answer:Try to bust the door open by taking apart the bed frame and using the metal part as a hinge on the door|node3]]
+ [[Answer:Try to fiddle with Candace the AI and try to get it to open the door |node4]]
+ [[Answer:Default|node5]]
+===
+title: node3
+tags: 
+colorID: 0
+position: 289,638
+---
+Yeah, you're right. I should try to bust the door open. Okay, I'm going to take apart the bed frame. (grunting noises, taking bed apart) While I take this apart, tell me.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. (a pop) Huh? What's this? It's a small note. It says "It's all a LIE". What's that supposed to mean? And who put it there? Weird. Alright, I'm gonna try and wedge this metal piece between the door and see if that'll work. (more grunting, a snap and a pop) Yes! It's open. I broke the metal frame, but it's sharp and pointy now. Should make a good weapon. I'll keep it with me for now. I'm going to go look for the others.
+Wait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===
+title: node4
+tags: 
+colorID: 0
+position: -151,644
+---
+Yeah you're right. I wouldn't want to make too much noise, because who knows what's on the other side. Alright, I'll put that engineering degree to use and try to see if this panel will give me access to Candace. (electronic tool sounds) Well, looks like that's it. The panel needs to boot up, and hopefully Candace will be online and willing to open the door for me. While we wait.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. Alright, looks like Candace booted up. "Candace, open door to cell 312. Wow. What do you know. IT actually worked. Alright, stay with me here, I'm going to go look for the others.
+Why Huh? Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===
+title: node5
+tags: 
+colorID: 0
+position: 68,882
+---
+Huh.. That's weird... The door just... flew open. (whispers) I'm gonna take a peek to see if anyone's out there. No one's there. Odd. Well, wow, that worked out pretty easy didn't it? I'm gonna go look for the others.
+Wait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===

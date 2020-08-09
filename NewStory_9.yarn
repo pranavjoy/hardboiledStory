@@ -1,0 +1,452 @@
+[
+	{
+		"title": "node0",
+		"tags": "",
+		"body": "Hello! Can anyone hear me? Helllooo! Is anyone on this frequency? I'm Stuart, Prisoner ID 312 aboard SS-Freedom. I repeat, is anyone on this frequency? My cell door is jammed shut, Candace won't respond to any of my commands, and I hear no one outside on the brig. I think something terrible's happened, and I don't know what to do. If anyone at base can hear me, please, tell me what to do. I don't feel safe in a piece of machinery hurling 6000 miles an hour towards Mars. Someone, anyone please respond. \n[[Answer:Literally anything|node1]]",
+		"position": {
+			"x": -32,
+			"y": 1038
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node1",
+		"tags": "",
+		"body": "Oh thank God, this thing actually works. Thank you for responding. I don't know what to do. I need to send an emergency beacon to NASA to let them know I'm alive and need help. But to do that I need to get out of the room. And the only way to do that is to get this door open. I could also try fiddling with the panel that calls the ship's AI \"Candace\", and try to get it to open the door. I already tapped into her comms system. Or, I could try and bust the door open by taking apart the bed frame and using the metal part lever on the door. Either way, I need to do something fast. What do you think I should do? Should I bust the door open, or try to hack into the panel?\n [[Answer:Try to bust the door open by taking apart the bed frame and using the metal part as a hinge on the door|node3]]\n [[Answer:Try to fiddle with Candace the AI and try to get it to open the door |node4]]\n [[Answer:Default|node5]]",
+		"position": {
+			"x": -29,
+			"y": 1424
+		},
+		"colorID": 1
+	},
+	{
+		"title": "node3",
+		"tags": "candace_asleep has_weapon",
+		"body": "Yeah, you're right. I should try to bust the door open. Okay, I'm going to take apart the bed frame. (grunting noises, taking bed apart) While I take this apart, tell me.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. (a pop) Huh? What's this? It's a small note. It says \"It's all a LIE\". What's that supposed to mean? And who put it there? Weird. Alright, I'm gonna try and wedge this metal piece between the door and see if that'll work. (more grunting, a snap and a pop) Yes! It's open. I broke the metal frame, but it's sharp and pointy now. Should make a good weapon. I'll keep it with me for now. I'm going to go look for the others.\nWait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked \"TO MAIN SHIP\". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. But wait.. I feel like I missed something in here. If I leave now towards the main ship, it's unlikely I'll be coming back here anytime soon. What do you think I should do? Do I go back and keep looking around, or do I go towards the main ship?\n\n[[ answer: Go back and check the rest of the prison ward|node6]]\n[[ answer: Keep going towards the rest of the main ship|node7]]",
+		"position": {
+			"x": 2648,
+			"y": 1887
+		},
+		"colorID": 2
+	},
+	{
+		"title": "node4",
+		"tags": "candace_awake no_weapon",
+		"body": "Yeah you're right. I wouldn't want to make too much noise, because who knows what's on the other side. Alright, I'll put that engineering degree to use and try to see if this panel will give me access to Candace. (electronic tool sounds) Well, looks like that's it. The panel needs to boot up, and hopefully Candace will be online and willing to open the door for me. While we wait.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. Alright, looks like Candace booted up. \"Candace, open door to cell 312. Wow. What do you know. IT actually worked. Alright, stay with me here, I'm going to go look for the others.\nWhy Huh? Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked \"TO MAIN SHIP\". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. But wait.. I feel like I missed something in here. If I leave now towards the main ship, it's unlikely I'll be coming back here anytime soon. What do you think I should do? Do I go back and keep looking around, or do I go towards the main ship?\n\n[[ answer: Go back and check the rest of the prison ward|node31]]\n[[ answer: Keep going towards the rest of the main ship|node32]]",
+		"position": {
+			"x": -2966,
+			"y": 1963
+		},
+		"colorID": 2
+	},
+	{
+		"title": "node5",
+		"tags": "candace_awake no_weapon",
+		"body": "Huh.. That's weird... The door just... flew open. (whispers) I'm gonna take a peek to see if anyone's out there. No one's there. Odd. Well, wow, that worked out pretty easy didn't it? I'm gonna go look for the others.\nWait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked \"TO MAIN SHIP\". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)\n\nBut wait.. I feel like I missed something in here. If I leave now towards the main ship, it's unlikely I'll be coming back here anytime soon. What do you think I should do? Do I go back and keep looking around, or do I go towards the main ship?\n\n[[ answer: Go back and check the rest of the prison ward|node29]]\n[[ answer: Keep going towards the rest of the main ship|node30]]",
+		"position": {
+			"x": -29,
+			"y": 1893
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Welcome home Alex. While you were away, you had 7 unread messages. Would you like me to play them for you? [[Answer:Yes|HR department's message]] [[Answer:No|noMessage]]\n",
+		"position": {
+			"x": -681,
+			"y": -459
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HR department's message",
+		"tags": "",
+		"body": "Hi Alex! Hope you're having a Good morning! I'm just calling to check on you because I've been told you haven't shown up to work for a week without giving notice. I understand these may be trying times for you, but for the future, I'd recommend clearing days off for personal reasons with your supervisors first. That being said, please get back to me as soon as you can with a possible date on which you can start back at work, so we can work out your pay for the month. Please note, that if you do not reply to this in the next 24 hours, we'd be forced to consider severance options for you. [[Answer:N/A|Best friend's message]]\n",
+		"position": {
+			"x": -675,
+			"y": 87
+		},
+		"colorID": 0
+	},
+	{
+		"title": "noMessage",
+		"tags": "",
+		"body": "You have chose to NOT listen to the messages. There were people who were counting on you to listen to those messages. What is wrong with you? Do you not like the ones closest to you who care enough to leave you a message? You have 7 unread messages. Would you like to listen to the NOW? [[Answer:Yes|HR department's message]] [[Answer:No|gameover]]\n",
+		"position": {
+			"x": -150,
+			"y": -116
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Best friend's message",
+		"tags": "",
+		"body": "Hey Alex! Missed you at work again! It's no fun without you around. I was in the most BOOOORING meeting today. I'll tell you all about it tonight. You're still coming to Greg's party, right? RIGHT? You know I'll be all alone there tonight if you don't show up. It's going to be the absolute worst. Please come. Don't be mad. but I talked to your neighbour, and he thinks you haven't left your apartment the entire week. Please tell me you're not holed up in there like last time. I know you're not the happiest this time of the year, with what happened, but it's been a year Alex. It's time to move on. You can't beat yourself up over something you had no control over. So please leave the apartment and come out tonight. *pause and sigh*  Call me when you get this [[Answer:N/A|Therapist's office message]]\n",
+		"position": {
+			"x": -102,
+			"y": 259
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gameover",
+		"tags": "",
+		"body": "Empty Text\n",
+		"position": {
+			"x": 373,
+			"y": 278
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Therapist's office message",
+		"tags": "",
+		"body": "Hi! I'm calling from Dr.Baxler's office, to confirm your bi-weekly appointment for 7 pm this afternoon. Wed like you to return to us with a confirmation as we have had you skip the past few appointments. Again, this is Dr.Baxler's office, and hope you have a good day. [[Answer:N/A|node00]]",
+		"position": {
+			"x": -641,
+			"y": 643
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node00",
+		"tags": "Init",
+		"body": "You have 1 voice message from an UNKNOWN number. Would you like to listen to it?\n[[ answer: Yes, I would like to listen to the voice message|gameover]] \n[[ answer: No, I would not like to listen to the voice message|node0]]",
+		"position": {
+			"x": 391,
+			"y": 877
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node6",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Alright, I'm going back to check if I missed anything on deck. Huh. Two doors apart from mine are open too. I can't believe I didn't notice that before. If they busted out too, that must mean they're on the ship too! There's a trail of blood leaving the room. I wonder if they're hurt and need help. I need to find them! They must have gotten hurt while trying to escape. Why is this happening? None of us asked for this. To be put on a metal can hurling six thousand miles an hour in outer space. That is it. I'm getting out of here one way or another. I'm heading to the main ship.\n\n**************************************************\n\nOkay, so quick update on my situation here. I don't see a single person on the main deck either. There are a bunch of signs that point to all kinds of directions here, but I'm not sure where to go to. There's the escape module. I could try to get to the escape module and try to make my way out through there. But there's also a sign that says \"Functional cargo module\". I'm pretty sure there's food in there. And to be completely honest, the last meal I had was almost a day ago. There's the medical module. Oh wait, the medical module! I'm pretty sure the prisoners who escaped went there. They might have gone there to patch themselves up. And finally, there's the engineering wing and docking port. I know where I want to go, but what do you think?\n\n[[ answer: I think you should go to the escape module|node15]] \n[[ answer: I think you should go to the functional cargo module and get yourself some food|node16]] \n[[ answer: I think you should go to the medical module|node17]] \n[[ answer: I think you should go to the engineering wing|node18]] \n[[ answer: I think you should go to the docking port|node19]]",
+		"position": {
+			"x": 7525,
+			"y": 2659
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node7",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Alright, it doesn't make a lot of sense looking back now. I need to keep moving forward. I'm going in. See you on the other side then (airlock whooshes)\n\n************************\n\nOkay, so quick update on my situation here. I don't see a single person on the main deck either. There are a bunch of signs that point to all kinds of directions here, but I'm not sure where to go to. There's the escape module. I could try to get to the escape module and try to make my way out through there. But there's also a sign that says \"Functional cargo module\". I'm pretty sure there's food in there. And to be completely honest, the last meal I had was almost a day ago. There's the medical module, in the same direction as the control panel for the ship, but those don't seem too interesting. And finally, there's the engineering wing and docking port. I know where I want to go, but what do you think?\n[[ answer: I think you should go to the escape module|node11]] \n[[ answer: I think you should go to the functional cargo module and get yourself some food|node8]] \n[[ answer: I think you should go to the medical module|node9]] \n[[ answer: I think you should go to the engineering wing|node10]] \n[[ answer: I think you should go to the docking port|node12]]",
+		"position": {
+			"x": 3760,
+			"y": 2695
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node8",
+		"tags": "candace_asleep has_weapon ",
+		"body": "Yeah, I am quite hungry. I don't know how long I could have kept going without food. Looks like \"Functional Cargo Module\" it is. I wonder what they have in there. Maybe some dehydrated tomato soup. Ooh.. Or maybe, some pureed beef and vegetables out of a tube. But maybe, just maybe, they might have *gasps in excitement* some freeze-dried pineapple fruit cake! I love deserts, but they're hard to come by in prison. I mean, we could get a moon cake once in a while from the commissary, but a real dessert? Unlikely. I once had my ward mate who works in the kitchen, steal ingredients one at a time, so that by the end of the week, we would have enough to make a banana pudding. By the fourth day, we really thought we could get away with it. But instead of dessert, we got thrown in a week of solitary once they did a random spot check, and found out we were stealing from the kitchen. I would love to say it was worth it, but nothing is worth solitary. It really fucks with your mind. After a few hours in there, in absolutely deafening silence, you start hearing voices. Voices of people from your past and present. One's you try to forget, and others you never want to. You enter this subliminal state where you start seeing yourself from an external point of view, and you dissolve away from yourself. Once I got out of confinement, it took me weeks to adjust from my new perceived reality. Needless to say, I never tried making desserts at the prison ever again.\n\n********************************************************\n\nALright, I'm here. Doesn't look like anything's been touched in a while. I'm going to open up a few of these boxes and see if there's something I can use. Score! There's some swedish meatballs, freeze-dried chicken soup, and what do you know.. There's even some fruit cake. I'm so glad I made my way over here. I'm going to finish eating these away from the microphone and then head back to the brig. I'll keep you posted.\n\n********************************************************\n\nOkay, I'm back. Now that I'm fed, I think I need to start thinking about a way to get off the ship and back to Earth. Where do you think I should head to first? The escape pod module should have pods I can use to escape.\n[[ answer: I think you should go to the escape module|node25]] \n[[ answer: I think you should go to the medical module|node26]] \n[[ answer: I think you should go to the engineering wing|node27]] \n[[ answer: I think you should go to the docking port|node28]]",
+		"position": {
+			"x": 4138,
+			"y": 3347
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node9",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Hmm... Maybe. The medical module might have something I need. They might even have glucose, which should keep my hydrated. Okay, to the medical module then!\nSpeaking of the medical module, as a kid, I'd always wanted to be a doctor. I loved chemistry and biology in high school, and I knew if I just put in the effort, I could do it. Everyone else in the class wanted to be an astronaut or an aerospace engineer. I was always the black sheep for not sticking with the agenda. Needless to say, my passion for chemistry, didn't really pay for my tuition at college, so I became a drug dealer instead. You know, the classic story of the poor kid resorting to selling drugs to get through college. Well, I'm not proud of what I did. I've hurt countless people in pursuit of monetary rewards. I had never once stopped to consider how the repercussions of my actions hurt everyone around me. Well, in the end, I paid the price and ended up in jail. The irony. More than half of my class would have been more than happy to take my place on board this ship. But I ended up here. Hey, whatever it takes to make amends.\n\nAlright, I'm almost at the medical module. Wait, are those voices?\n\nPrisoner #1 (muffled) : You said this was all going to work out! All that's worked out is my bloody arm, and a growling abdomen. I knew we shouldn't have done it.\nPrisoner #2 (muffled) : Oh, and you much rather would have preferred slaving away for an eternity on a planet that's literally one giant desert. \nPrisoner #1 (muffled) : No one said it would be an eternity. They said six months, and we would be free to go bac-. \nPrisoner #2 (muffled) : Yeah! Of course! They spent billions of dollars getting us here, only to fly us back in six months. They were never going to let us leave. We would have spend the rest of our sad, sorry lives there. I knew you were naive, but by God, I didn't think you were dumb enough to believe in these insane fantasies you're constructing.\nPrisoner #1 (muffled) : ENOUGH! I've had it. You've been bossing me around this entire time. Ever since we got assigned the same quadrant to clean up after, you've treated me like shit. You're not the boss of me! I'm the boss of me! \nPrisoner #2 (muffled) : Yeah, right. Like you'd get anything done without me. I could have easily let you die with the rest of the prisoners without skipping a beat. So I'd like you to know that if you ever feel like joining the rest of the ship, just tell me. I can make it quick and painless. It would do me a lot of good, not having to drag your ass around every where I go. If I had a- *skid sounds* Who's there! Hello! Is someone there? We won't hurt you. We just want to talk! Hello!\nWhat the hell? There are other survivors on the ship? And wait, what do they mean, they're responsible. I'm not staying to find out *running sounds*\n************************************************************",
+		"position": {
+			"x": 2099,
+			"y": 3437
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node10",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Alright, maybe I should check out the engineering module first. I'll never know what I'm going to find. It's crazy how half the kids in high school wanted to be aerospace engineers. NASA really pushed that \"get 'em while they're young advertising\" real hard. I don't know why, but I was never really interested in space. All I wanted to do was to save people by becoming a doctor.",
+		"position": {
+			"x": 5102,
+			"y": 3380
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node11",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Yeah, I was thinking the same thing. I don't really have time to wander around. Alright, it seems to be quite the walk. It's all the way at the bottom the ship. Which seems about right, cause if there's one thing that an emergency pod must do, is be easily accessible by the rest of the ship. *sighs* Who designed this shit?\nHey, I was wondering. Do you think I'll have to go back to jail if I escape and come back? I mean it's not my fault the ship went haywire. I mean, I wasn't the most excited about space travel when they told me I'd have to do it. But over the course of the past few weeks, I've come to realize how small our individual lives are. In the unending universe, we are but a tiny speck of dust. It really brings to perspective how minuscule everything you thought you cared about is. I mean, I don't mind going back to prison. I deserve it. Well, that's a story for another day. But the sheer thought of me going back to the confinement of four walls, after I've experienced the vast endlessness of the universe and observed the world from the lens of an outsider. That being said, I'm not even sure what I'll do even if they don't put me back in prison. I can never go back to working at a supermarket like I used to. Ooh.. Maybe I should apply to NASA and try to enroll as an astronaut. Yes, that's what I want to do. *chuckles happily*\n\n***************************************************\n\nI'm here at the escape module. It looks like someone was already in here. Wait! Two of the pods were already launched? Is that where everyone went? But, if so, that isn't nearly enough pods for everyone. Looks like only the crew escaped. Those bastards. They didn't even care enough to take us with them. That's fine though, there's one more pod left. I can try to leave with it, but I'm getting a sinking feeling, there are others on the ship, who might need to get off the ship too. I really do want to go back and look for the others, but at the same time, I'll be risking my own life in doing so.\n\n[[ answer: I think you should go back and look for the others|node13]] \n[[ answer: I think you should take the pod and leave|node14]]",
+		"position": {
+			"x": 2934,
+			"y": 3377
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node12",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 3519,
+			"y": 3362
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node13",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 2958,
+			"y": 3938
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node14",
+		"tags": "candace_asleep has_weapon has_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 2485,
+			"y": 3941
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node15",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Hmm.. I really wanted to go to the medical module and look for other survivors. But you're right, I really don't have time to wander around. Alright, it seems to be quite the walk to the escape pod module. It's all the way at the bottom the ship. Which seems about right, cause if there's one thing that an emergency pod must do, is be easily accessible by the rest of the ship. *sighs* Who designed this shit?\nHey, I was wondering. Do you think I'll have to go back to jail if I escape and come back? It's not my fault the ship went haywire. I mean, I wasn't the most excited about space travel when they told me I'd have to do it. But they guaranteed my freedom if I just went through with the mission. But over the course of the past few weeks, I've come to realize how small our individual lives are. In the unending universe, we are but a tiny speck of dust. It really brings to perspective how minuscule everything you thought you cared about is. I mean, I don't mind going back to prison. I deserve it. Well, that's a story for another day. But the sheer thought of me going back to the confinement of four walls, after I've experienced the vast endlessness of the universe and observed the world from the lens of an outsider. That being said, I'm not even sure what I'll do even if they don't put me back in prison. I can never go back to working at a supermarket like I used to. Ooh.. Maybe I should apply to NASA and try to enroll as an astronaut. Yes, that's what I want to do. *chuckles happily*\n\n***************************************************\n\nI'm here at the escape module. It looks like someone was already in here. Wait, what?! Two of the pods were already deployed? Is that where everyone went? But, if so, that isn't nearly enough pods for everyone. Looks like only the crew escaped. Those bastards. They didn't even care enough to take us with them. I wonder if the prisoners who escaped got on one of the pods? That's fine though, there's one more pod left. I can try to leave with it, but I have a sinking feeling, that the others who escaped from the prison module, haven't made their way to the pods yet. If I leave now, I'd be stranding them on board with no means to escape. I really do want to go back and look for the others, but at the same time, I'll be risking my own life in doing so.\n\n[[ answer: I think you should go back and look for the others|node20]] \n[[ answer: I think you should take the pod and leave|node21]]",
+		"position": {
+			"x": 6499,
+			"y": 3451
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node16",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 8663,
+			"y": 3433
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node17",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 7169,
+			"y": 3430
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node18",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 8181,
+			"y": 3440
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node19",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 7697,
+			"y": 3424
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node20",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "No, I can't leave. As long as I'm sure there might be other people on board, I can never leave. If I do so, I'm no better than the crew who left us here to die. I've listened to everything you've had to say all this time, but this is something I cannot let happen. I'm going back to the medical module to start looking for them. They must still be there. I'm sorry, but my days of not giving a fuck are finally over. \n************\nOkay, I'm almost at the medical module. I'm not sure, but I think I can hear- *crash*. \n\nPrisoner #1 (muffled) : You said this was all going to work out! All that's worked out is my bloody arm, and a growling abdomen. I knew we shouldn't have done it.\n\nPrisoner #2 (muffled) : Oh, and you much rather would have preferred slaving away for an eternity on a planet that's literally one giant desert. \n\nPrisoner #1 (muffled) : No one said it would be an eternity. They said six months, and we would be free to go bac-. \n\nPrisoner #2 (muffled) : Yeah! Of course! They spent billions of dollars getting us here, only to fly us back in six months. They were never going to let us leave. We would have spend the rest of our sad, sorry lives there. I knew you were naive, but by God, I didn't think you were dumb enough to believe in these insane fantasies you're constructing.\n\nPrisoner #1 (muffled) : ENOUGH! I've had it. You've been bossing me around this entire time. Ever since we got assigned the same quadrant to clean up after, you've treated me like shit. You're not the boss of me! I'm the boss of me! \n\nPrisoner #2 (muffled) : Yeah, right. Like you'd get anything done without me. I could have easily let you die with the rest of the prisoners without skipping a beat. So I'd like you to know that if you ever feel like joining the rest of the ship, just tell me. I can make it quick and painless. It would do me a lot of good, not having to drag your ass around every where I go. If I had a- *skid sounds* Who's there! Hello! Is someone there? We won't hurt you. We just want to talk! Hello!\n\nYeah, I'm not going to stick around to find out what they want with me. *sounds of running*\n\n***************************************************************************\n\nOkay, I think I lost them. Woah! They're the reason all of this is happening! But, then why did the crew leave? Did they know something was about to happen? Why didn't they stop them then? I don't understand. Well, clearly they don't look like they need my help. Looks like I'm gonna head back to the escape pod and make my way out of here. I need to hurry in case they get to it first. I'll talk to you in a few. \n\n***************************************************************************\n\nOkay, so they still haven't made their way across here, which is odd seeing as to how, they probably already know this is the only way they can escape. Weird. Okay, I'm going to read the manual and try to get the pod started. Hey, wait, there's a government website with the blueprints to the ship. You should look it up. It's at *website link* Let me try and make my way through the manual, while you try to look up the map. \n\n***************************************************************************\n\nOf course, it would have been too easy if  I could just start the pod and leave. I'm missing the ignition key, which is probably either in the power and guidance module or the the engineering module. I don't know which one is closer for me to check out first. Also, I don't know if I've mentioned it before, but I'm starting to get real hungry.\n\n\n[[ answer: go to the power and guidance module|node22]] \n[[ answer: go to the engineering module, it's closer|node23]] \n[[ answer: go to the functional cargo module and get yourself some food to eat since you're hungry|node24]]",
+		"position": {
+			"x": 6471,
+			"y": 4003
+		},
+		"colorID": 1
+	},
+	{
+		"title": "node21",
+		"tags": "knows_others candace_asleep has_weapon lost_time is_hungry",
+		"body": "Empty Text",
+		"position": {
+			"x": 5567,
+			"y": 4047
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node22",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 6078,
+			"y": 4391
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node23",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 6475,
+			"y": 4388
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node24",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 6855,
+			"y": 4389
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node25",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 3812,
+			"y": 3949
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node26",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 4457,
+			"y": 3941
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node27",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 4149,
+			"y": 3930
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node28",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 4773,
+			"y": 3930
+		},
+		"colorID": 0
+	},
+	{
+		"title": "node29",
+		"tags": "",
+		"body": "Alright, I'm going back to check if I missed anything on deck. Huh. Two doors apart from mine are open too. I can't believe I didn't notice that before. If they busted out too, that must mean they're on the ship too! There's a trail of blood leaving the room. I wonder if they're hurt and need help. I need to find them! They must have gotten hurt while trying to escape. Why is this happening? None of us asked for this. To be put on a metal can hurling six thousand miles an hour in outer space. That is it. I'm getting out of here one way or another. I'm heading to the main ship.\n\n**************************************************\n\nOkay, so quick update on my situation here. I don't see a single person on the main deck either. There are a bunch of signs that point to all kinds of directions here, but I'm not sure where to go to. There's the escape module. I could try to get to the escape module and try to make my way out through there. But there's also a sign that says \"Functional cargo module\". I'm pretty sure there's food in there. And to be completely honest, the last meal I had was almost a day ago. There's the medical module. Oh wait, the medical module! I'm pretty sure the prisoners who escaped went there. They might have gone there to patch themselves up. And finally, there's the engineering wing and docking port. I know where I want to go, but what do you think?\n\n[[ answer: I think you should go to the escape module|node33]] \n[[ answer: I think you should go to the functional cargo module and get yourself some food|node34]] \n[[ answer: I think you should go to the medical module|node35]] \n[[ answer: I think you should go to the engineering wing|node36]] \n[[ answer: I think you should go to the docking port|node37]]",
+		"position": {
+			"x": -493,
+			"y": 2762
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node30",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 536,
+			"y": 2723
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node31",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -4133,
+			"y": 2808
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node32",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -1976,
+			"y": 2785
+		},
+		"colorID": 3
+	},
+	{
+		"title": "node33",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -910,
+			"y": 3384
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node34",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -690,
+			"y": 3384
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node35",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -470,
+			"y": 3384
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node36",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -250,
+			"y": 3384
+		},
+		"colorID": 4
+	},
+	{
+		"title": "node37",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -30,
+			"y": 3384
+		},
+		"colorID": 4
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 121,
+			"y": 70
+		},
+		"colorID": 0
+	}
+]

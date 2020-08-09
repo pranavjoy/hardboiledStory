@@ -1,0 +1,201 @@
+title: node0
+tags: 
+colorID: 0
+position: -60,1124
+---
+Hello! Can anyone hear me? Helllooo! Is anyone on this frequency? I'm Stuart, Prisoner ID 312 aboard SS-Freedom. I repeat, is anyone on this frequency? My cell door is jammed shut, Candace the ship's AI won't respond to any of my commands, and I hear no one outside on the brig. I think something terrible's happened, and I don't know what to do. If anyone at base can hear me, please, tell me what to do. I don't feel safe in a piece of machinery hurling 6000 miles an hour towards Mars. Someone, anyone please respond. 
+[[Answer:Literally anything|node1]]
+===
+title: node1
+tags: 
+colorID: 1
+position: -59,1390
+---
+Oh thank God, this thing actually works. Thank you for responding. I don't know what to do. I need to send an emergency beacon to NASA to let them know I'm alive and need help. But to do that I need to get out of the room. And the only way to do that is to get this door open. I could also try fiddling with the panel that calls the ship's AI "Candace", and try to get it to open the door. I already tapped into her comms system. Or, I could try and bust the door open by taking apart the bed frame and using the metal part lever on the door. Either way, I need to do something fast. What do you think I should do? Should I bust the door open, or try to hack into the panel?
+ [[Answer:Try to bust the door open by taking apart the bed frame and using the metal part as a hinge on the door|node3]]
+ [[Answer:Try to fiddle with Candace the AI and try to get it to open the door |node4]]
+ [[Answer:Default|node5]]
+===
+title: node3
+tags: candace_asleep has_weapon
+colorID: 0
+position: 168,1659
+---
+Yeah, you're right. I should try to bust the door open. Okay, I'm going to take apart the bed frame. (grunting noises, taking bed apart) While I take this apart, tell me.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. (a pop) Huh? What's this? It's a small note. It says "It's all a LIE". What's that supposed to mean? And who put it there? Weird. Alright, I'm gonna try and wedge this metal piece between the door and see if that'll work. (more grunting, a snap and a pop) Yes! It's open. I broke the metal frame, but it's sharp and pointy now. Should make a good weapon. I'll keep it with me for now. I'm going to go look for the others.
+Wait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===
+title: node4
+tags: candace_awake no_weapon
+colorID: 0
+position: -272,1665
+---
+Yeah you're right. I wouldn't want to make too much noise, because who knows what's on the other side. Alright, I'll put that engineering degree to use and try to see if this panel will give me access to Candace. (electronic tool sounds) Well, looks like that's it. The panel needs to boot up, and hopefully Candace will be online and willing to open the door for me. While we wait.. Who are you? Why are you on this frequency? And above all, why are you helping me? You do know that I'm a prisoner on board a ship that's taking us to Mars for practically slave labour. The energy of the future! That's what they said to convince congress to send us up here. Alright, looks like Candace booted up. "Candace, open door to cell 312. Wow. What do you know. IT actually worked. Alright, stay with me here, I'm going to go look for the others.
+Why Huh? Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===
+title: node5
+tags: candace_awake no_weapon
+colorID: 0
+position: -53,1903
+---
+Huh.. That's weird... The door just... flew open. (whispers) I'm gonna take a peek to see if anyone's out there. No one's there. Odd. Well, wow, that worked out pretty easy didn't it? I'm gonna go look for the others.
+Wait. Why are all the cells empty? Where is everyone? This is freaking me out. It so quiet and eerie up here. Where do I even begin looking for them? I'm in the Prison module, and that's the only one I've been in, in the entire ship. I don't ever leave here, and I've never even seen a crew member or guards. We prisoners were pretty self-sustaining. Well, looks like I'm gonna have to start somewhere. There's an airlock chamber here marked "TO MAIN SHIP". It's usually locked, but well, today's pretty far from usual. (grunting) Yeah, it's open. See you on the other side then (airlock whooshes)
+===
+title: Start
+tags: 
+colorID: 0
+position: -666,-186
+---
+Welcome home Alex. While you were away, you had 7 unread messages. Would you like me to play them for you? [[Answer:Yes|HR department's message]] [[Answer:No|noMessage]]
+===
+title: HR department's message
+tags: 
+colorID: 0
+position: -675,87
+---
+Hi Alex! Hope you're having a Good morning! I'm just calling to check on you because I've been told you haven't shown up to work for a week without giving notice. I understand these may be trying times for you, but for the future, I'd recommend clearing days off for personal reasons with your supervisors first. That being said, please get back to me as soon as you can with a possible date on which you can start back at work, so we can work out your pay for the month. Please note, that if you do not reply to this in the next 24 hours, we'd be forced to consider severance options for you. [[Answer:N/A|Best friend's message]]
+===
+title: noMessage
+tags: 
+colorID: 0
+position: -150,-116
+---
+You have chose to NOT listen to the messages. There were people who were counting on you to listen to those messages. What is wrong with you? Do you not like the ones closest to you who care enough to leave you a message? You have 7 unread messages. Would you like to listen to the NOW? [[Answer:Yes|HR department's message]] [[Answer:No|gameover]]
+===
+title: Best friend's message
+tags: 
+colorID: 0
+position: -102,259
+---
+Hey Alex! Missed you at work again! It's no fun without you around. I was in the most BOOOORING meeting today. I'll tell you all about it tonight. You're still coming to Greg's party, right? RIGHT? You know I'll be all alone there tonight if you don't show up. It's going to be the absolute worst. Please come. Don't be mad. but I talked to your neighbour, and he thinks you haven't left your apartment the entire week. Please tell me you're not holed up in there like last time. I know you're not the happiest this time of the year, with what happened, but it's been a year Alex. It's time to move on. You can't beat yourself up over something you had no control over. So please leave the apartment and come out tonight. *pause and sigh*  Call me when you get this [[Answer:N/A|Therapist's office message]]
+===
+title: gameover
+tags: 
+colorID: 0
+position: 373,278
+---
+Empty Text
+===
+title: Therapist's office message
+tags: 
+colorID: 0
+position: -641,643
+---
+Hi! I'm calling from Dr.Baxler's office, to confirm your bi-weekly appointment for 7 pm this afternoon. Wed like you to return to us with a confirmation as we have had you skip the past few appointments. Again, this is Dr.Baxler's office, and hope you have a good day. [[Answer:N/A|node00]]
+===
+title: messageSpace1
+tags: 
+colorID: 0
+position: 3708,1046
+---
+HELLO! HEEEELLLLOOO!! Is this thing on? CAN ANYONE HEAR ME? Oh wait, I suppose I'm so far out, it's gonna take a second for this to get back to Earth. Alright, first things first. I'm not entirely sure who's on the other end of this. *mutters under his breath* Looks like a civillian device. Anyway, you're the last person I can talk to seeing as to how the comms are down. And the commissary. And the other half of the ship that's broken off, which is now beelining for Mars. I've sent a distress beacon to SpaceY, so I'm probably gonna get picked up by the next carrier craft, so I got that covered. I wonder where everyone else on the ship is. Anywho, hopefully, there's someone on the other end of this line, so I haven't been talking to myself for the past minute. Hey what do you know? Maybe I WON'T die of loneliness before I die from hunger or thirst. Yeesh what a bummer, am I right? So yeah, it would be great if someone, anyone responded. Hello? [[Answer:N/A|messageSpace2]]
+===
+title: messageSpace2
+tags: 
+colorID: 0
+position: 3079,1209
+---
+Damn, I didn't think it would work. I'm so glad you responded. My name's Dr Simon <last name redacted>. You can call me Sam, if you'd like. Or you can just call me Doc. Because of the PhD, not because I'm a real doctor. Never went to med school. Too much blood everywhere. Speaking of out-of-context blood, did I mention I'm losing some? Meh, should be fine. Not like it's the worst thing that could happen. Hey, look on the bright side. The gravity module blew off with the rest of the ship during the explosion, so I've been floating around this whole time. The damn engineers at SpaceY really wanted us to have gravity so that "space travel feels natural". Like gravity was gonna change the fact we're hurling at 17,500 miles per hour from one blue space rock to a red space rock. Well, anyways, look who's floating now! Enough about me, tell me more about you. What's your name? What do you do? Tell me everything. It's not like I have anywhere to be. [[Answer:Anything|messageSpace3]]
+===
+title: messageSpace3
+tags: 
+colorID: 0
+position: 3711,1378
+---
+That’s great! I’m really glad I have someone to talk to. I know you told me your name, but I suffer from "Iwillforgetyournamia" so it would be super cool if I could just call you generic names, like “sport” or “champ”  or “mass murderer incarcerated for slashing 200 people’s throats”. You know. The regular stuff. Just for narrative continuity, in case I forget your name down the line. The airlock is holding here, and I wouldn’t dare open anything in case I blow up into hundreds of tiny little pieces. So I’m stuck here in this room. Hey at least I’m in the containment unit, so if I start getting a little hungry, I can always pop one of the poop bags open, grab some pre-filtered urine and wine and dine in style. Well, that's my sit-rep so far. The rescue ship shouldn't be too far off now. How’s things back on Earth? [[Answer:Anything|messageSpace4]]
+===
+title: messageSpace4
+tags: 
+colorID: 0
+position: 3072,1561
+---
+Oh.. And I thought things were bad up here. Boy, am I glad I’m up here on a half destroyed spaceship. Well, speaking of worthless spaceships, I wonder who’ll be on the next carrier craft… Fingers crossed, it’ll probably be Rob. Or even Spencer. Oh damn, that’d be so cool! Those guys are the best. I was on a mission with Rob once, and he had a pack of cards. The illegal kind. *whispers excitedly* Don’t tell anyone, but they were made of PLASTIC. Ever since they outlawed plastic a few years ago, they’re so hard to find. I had never seen a pack until then. The cards were so smooth, it slid right off your finger. Of course, we had to keep it quiet in case the brig officer saw us, but we had so much fun playing that day. Aah.. The good old days when I wasn’t stuck in containment with absolutely no one. I actually have no idea where the others are. Of course, protocol states, we should all send seperate distress beacons, and not go looking for the others, but I wonder if they're okay. Anyways, I was wondering if you wanted to have a bit of fun. I found a book on human chemistry, and in order to play it, we both have to answer these questions. You in?
+[[Answer:Yeah|questionSpace1]]
+[[Answer:No|messageSpace5]]
+===
+title: questionSpace1
+tags: 
+colorID: 0
+position: 2344,1091
+---
+Alright! I'll read the question, you answer, and then I'll try and answer it as well. It says, to try and answer it as honestly as you can, without thinking too much. Shouldn't be too hard to clear my head. Anyway, here's the first question. 
+Given the choice of anyone in the world, who would pick as your ideal dinner guest, and why?
+[[ answer: Anything|answerSpace1]]
+[[ answer: quit|quitQuiz]]
+[[ answer: I don't want to answer this one|passQuestion1]]
+===
+title: messageSpace5
+tags: 
+colorID: 0
+position: 3703,1809
+---
+Yeah, maybe now isn't a great time to be doing this. I was just hoping to kill some time. You're right, we have way more pressing matters at hand right now.
+===
+title: answerSpace1
+tags: 
+colorID: 0
+position: 2038,1366
+---
+That's an interesting choice. I personally wouldn't have gone with it myself, but I totally understand why. I'm not entirely sure who mine would be. I've always wanted to talk to President George McGovern. If it wasn't for him, I probably would have never made it space. Ooh, and maybe Yuri Gagarin. It would have been great to talk to the first ever man in Space. Well, first of many, as far as Russia was concerned, am I right.. The day they stepped foot on the moon, was probably the first time, we felt like everything we worked for was pointless. But if it weren't for them, we probably would have never elected McGovern. It's so interesting how seemingly disconnected events have massive ramifications in the future. Imagine if we were the first to step on the moon? Do you think we would have still worked as hard as we did to get to Mars? I'd like to believe so. How about we move on to the next question? Feel free to stop me if you've had enough.
+[[ answer: stop|quitQuiz]]
+[[ answer: go on|questionSpace2]]
+===
+title: quitQuiz
+tags: 
+colorID: 0
+position: 3665,2204
+---
+Yeah, of course.. There was no way we were going to go through all those questions. We have more pressing matters at hand here.
+===
+title: passQuestion1
+tags: 
+colorID: 0
+position: 1745,1090
+---
+Sure, you don't have to answer this one. I'm not entirely sure who mine would be either. I've always wanted to talk to President George McGovern. If it wasn't for him, I probably would have never made it space. Ooh, and maybe Yuri Gagarin. It would have been great to talk to the first ever man in Space. Well, first of many, as far as Russia was concerned, am I right.. The day they stepped foot on the moon, was probably the first time, we felt like everything we worked for was pointless. But if it weren't for them, we probably would have never elected McGovern. It's so interesting how seemingly disconnected events have massive ramifications in the future. Imagine if we were the first to step on the moon? Do you think we would have still worked as hard as we did to get to Mars? I'd like to believe so. How about we move on to the next question? Feel free to stop me if you've had enough.
+[[ answer: stop|quitQuiz]]
+[[ answer: go on|questionSpace2]]
+===
+title: questionSpace2
+tags: 
+colorID: 0
+position: 1708,1777
+---
+Alright, moving on. Would you like to be famous and what would you like to be famous for?
+[[ answer: I don't want to answer this one|passQuestion2]] 
+[[ answer: anything|answerSpace2]] 
+[[ answer: quit|quitQuiz]]
+===
+title: passQuestion2
+tags: 
+colorID: 0
+position: 1299,1664
+---
+Sure. I understand. I've always been fascinated by the power of art to evoke emotions. Specifically, movies. I think movies are the purest expression of ideas. So I think if I were ever famous for something other than space travel, it would probably be for making a really good movie. Of course, I don't know if I'll have access to a film camera on Mars, but I can always quote, unquote borrow a camera from the Mars Rover. Curiosity killed the cat, but Simon says blind Curiosity. What do say we move on to the next one?
+[[ answer: stop|quitQuiz]]
+[[ answer: go on|questionSpace3]]
+===
+title: answerSpace2
+tags: 
+colorID: 0
+position: 1705,2180
+---
+Wow. I feel like you've thought about this before. I have too. I've always been fascinated by the power of art to evoke emotions. Specifically, movies. I think movies are the purest expression of ideas. So I think if I were ever famous for something other than space travel, it would probably be for making a really good movie. Of course, I don't know if I'll have access to a film camera on Mars, but I can always quote, unquote borrow a camera from the Mars Rover. Curiosity killed the cat, but Simon says blind Curiosity.
+[[ answer: stop|quitQuiz]]
+[[ answer: go on|questionSpace3]]
+===
+title: questionSpace3
+tags: 
+colorID: 0
+position: 1296,2183
+---
+Okay, this seems to be going good so far. How about we move on to the next one? Before making a telephone call, do you ever re- *sounds of explosion*
+===
+title: node00
+tags: Init
+colorID: 0
+position: -76,816
+---
+You have 1 voice message from an UNKNOWN number. Would you like to listen to it?
+[[ answer: Yes, I would like to listen to the voice message|gameover]] 
+[[ answer: No, I would not like to listen to the voice message|node0]]
+===
