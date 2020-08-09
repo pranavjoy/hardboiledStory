@@ -157,7 +157,7 @@ Okay, I'm back. Now that I'm fed, I think I need to start thinking about a way t
 [[ answer: I think you should go to the escape module|node25]] 
 [[ answer: I think you should go to the medical module|node26]] 
 [[ answer: I think you should go to the engineering wing|node27]] 
-[[ answer: I think you should go to the docking port|node28]]</body>
+[[ answer: I think you should go to the power and guidance module|node28]]</body>
 		<position x="4138" y="3347"></position>
 		<colorID>4</colorID>
 	</node>
@@ -248,7 +248,7 @@ I'm here at the escape module. It looks like someone was already in here. Wait, 
 	<node>
 		<title>node17</title>
 		<tags>knows_others candace_asleep has_weapon lost_time is_hungry</tags>
-		<body>You're right. That's what I wanted to do as well. It's likely whoever they are, they're still at the medical module. I might even be able to help them, in case they're injured. Looks like I'm making my way towards the medical module then. Speaking of the medical module,</body>
+		<body>You're right. That's what I wanted to do as well. It's likely whoever they are, they're still at the medical module. I might even be able to help them, in case they're injured. Looks like I'm making my way towards the medical module then. Speaking of the medical module, as a kid, I'd always wanted to be a doctor. I loved chemistry and biology in high school, and I knew if I just put in the effort, I could do it. Everyone else in the class wanted to be an astronaut or an aerospace engineer. I was always the black sheep for not sticking with the agenda. Needless to say, my passion for chemistry, didn't really pay for my tuition at college, so I became a drug dealer instead. You know, the classic story of the poor kid resorting to selling drugs to get through college. Well, I'm not proud of what I did. I've hurt countless people in pursuit of monetary rewards. I had never once stopped to consider how the repercussions of my actions hurt everyone around me. Well, in the end, I paid the price and ended up in jail. The irony. More than half of my class would have been more than happy to take my place on board this ship. But I ended up here. Hey, whatever it takes to make amends.</body>
 		<position x="7169" y="3430"></position>
 		<colorID>4</colorID>
 	</node>
@@ -392,7 +392,12 @@ Huh.. This place looks completely ransacked. Someone was already here. Probably 
 	<node>
 		<title>node28</title>
 		<tags></tags>
-		<body>Empty Text</body>
+		<body>If you say so. I'm not sure how far it is, but I'll make my way through. I'm starting to feel faint, but I think I can hold on till I get to and from there. I hope the ignition key is there, if not, this would have been a terrible waste of time. But hey, it's not like I had something else going on. *stumbles on something* Oh hey, it's a batman action figure. I wonder whose it is. Were there children on board? No, that doesn't seem likely. Might be a crew member's. I remember my brother loving Batman growing up. He wouldn't stop talking about it. He used to own so many collectibles. He would have liked this one. I always wanted to take him to one of those conventions where people dress up as superheroes. I'm not sure what it's called, oh right, ComicCon. Yeah, maybe that's what I'll do first when I get back. I'll take him to ComicCon. I think he'd really enjoy it.
+Huh.. This place looks completely ransacked. Someone was already here. Probably the two I saw in the medical module. I don't think I'm going to find anything useful in here. Wait, there's something on top of that panel. I'm going to try and see if I can reach it. *stresses to reach it* *crash as the panel topples over to block the exit of the power and guidance module* DAMN IT! *stresses to lift up the panel* Pheew. Thank god. I thought I was about to be stuck in here. The panel broke off the wall and blocked the exit. I was able to move it, but I was being quite loud. I think I need to get out of here as fast as I can. 
+
+************************************************************************
+
+Okay, I'm almost at the engineering module.</body>
 		<position x="4773" y="3930"></position>
 		<colorID>5</colorID>
 	</node>
@@ -410,7 +415,7 @@ Okay, so quick update on my situation here. I don't see a single person on the m
 [[ answer: I think you should go to the medical module|node35]] 
 [[ answer: I think you should go to the engineering wing|node36]] 
 [[ answer: I think you should go to the docking port|node37]]</body>
-		<position x="-1057" y="2735"></position>
+		<position x="-1000" y="2703"></position>
 		<colorID>3</colorID>
 	</node>
 	<node>
@@ -522,7 +527,19 @@ Okay, so quick update on my situation here. I don't see a single person on the m
 	<node>
 		<title>node40</title>
 		<tags>candace_awake no_weapon</tags>
-		<body>Empty Text</body>
+		<body>Hmm... Maybe. The medical module might have something I need. They might even have glucose, which should keep my hydrated. Okay, to the medical module then!
+Speaking of the medical module, as a kid, I'd always wanted to be a doctor. I loved chemistry and biology in high school, and I knew if I just put in the effort, I could do it. Everyone else in the class wanted to be an astronaut or an aerospace engineer. I was always the black sheep for not sticking with the agenda. Needless to say, my passion for chemistry, didn't really pay for my tuition at college, so I became a drug dealer instead. You know, the classic story of the poor kid resorting to selling drugs to get through college. Well, I'm not proud of what I did. I've hurt countless people in pursuit of monetary rewards. I had never once stopped to consider how the repercussions of my actions hurt everyone around me. Well, in the end, I paid the price and ended up in jail. The irony. More than half of my class would have been more than happy to take my place on board this ship. But I ended up here. Hey, whatever it takes to make amends.
+
+Alright, I'm almost at the medical module. Wait, are those voices?
+
+Prisoner #1 (muffled) : You said this was all going to work out! All that's worked out is my bloody arm, and a growling abdomen. I knew we shouldn't have done it.
+Prisoner #2 (muffled) : Oh, and you much rather would have preferred slaving away for an eternity on a planet that's literally one giant desert. 
+Prisoner #1 (muffled) : No one said it would be an eternity. They said six months, and we would be free to go bac-. 
+Prisoner #2 (muffled) : Yeah! Of course! They spent billions of dollars getting us here, only to fly us back in six months. They were never going to let us leave. We would have spend the rest of our sad, sorry lives there. I knew you were naive, but by God, I didn't think you were dumb enough to believe in these insane fantasies you're constructing.
+Prisoner #1 (muffled) : ENOUGH! I've had it. You've been bossing me around this entire time. Ever since we got assigned the same quadrant to clean up after, you've treated me like shit. You're not the boss of me! I'm the boss of me! 
+Prisoner #2 (muffled) : Yeah, right. Like you'd get anything done without me. I could have easily let you die with the rest of the prisoners without skipping a beat. So I'd like you to know that if you ever feel like joining the rest of the ship, just tell me. I can make it quick and painless. It would do me a lot of good, not having to drag your ass around every where I go. If I had a- *skid sounds* Who's there! Hello! Is someone there? We won't hurt you. We just want to talk! Hello!
+What the hell? There are other survivors on the ship? And wait, what do they mean, they're responsible. I'm not staying to find out *running sounds*
+************************************************************</body>
 		<position x="1033" y="3376"></position>
 		<colorID>4</colorID>
 	</node>
@@ -543,14 +560,28 @@ Okay, so quick update on my situation here. I don't see a single person on the m
 	<node>
 		<title>node43</title>
 		<tags>candace_awake no_weapon lost_time is_hungry</tags>
-		<body>Empty Text</body>
+		<body>Yeah, I was thinking the same thing. I don't really have time to wander around. Alright, it seems to be quite the walk. It's all the way at the bottom the ship. Which seems about right, cause if there's one thing that an emergency pod must do, is be easily accessible by the rest of the ship. *sighs* Who designed this shit?
+Hey, I was wondering. Do you think I'll have to go back to jail if I escape and come back? I mean it's not my fault the ship went haywire. I mean, I wasn't the most excited about space travel when they told me I'd have to do it. But over the course of the past few weeks, I've come to realize how small our individual lives are. In the unending universe, we are but a tiny speck of dust. It really brings to perspective how minuscule everything you thought you cared about is. I mean, I don't mind going back to prison. I deserve it. Well, that's a story for another day. But the sheer thought of me going back to the confinement of four walls, after I've experienced the vast endlessness of the universe and observed the world from the lens of an outsider. That being said, I'm not even sure what I'll do even if they don't put me back in prison. I can never go back to working at a supermarket like I used to. Ooh.. Maybe I should apply to NASA and try to enroll as an astronaut. Yes, that's what I want to do. *chuckles happily*</body>
 		<position x="-6089" y="3397"></position>
 		<colorID>4</colorID>
 	</node>
 	<node>
 		<title>node44</title>
 		<tags></tags>
-		<body>Empty Text</body>
+		<body>Yeah, I am quite hungry. I don't know how long I could have kept going without food. Looks like "Functional Cargo Module" it is. I wonder what they have in there. Maybe some dehydrated tomato soup. Ooh.. Or maybe, some pureed beef and vegetables out of a tube. But maybe, just maybe, they might have *gasps in excitement* some freeze-dried pineapple fruit cake! I love deserts, but they're hard to come by in prison. I mean, we could get a moon cake once in a while from the commissary, but a real dessert? Unlikely. I once had my ward mate who works in the kitchen, steal ingredients one at a time, so that by the end of the week, we would have enough to make a banana pudding. By the fourth day, we really thought we could get away with it. But instead of dessert, we got thrown in a week of solitary once they did a random spot check, and found out we were stealing from the kitchen. I would love to say it was worth it, but nothing is worth solitary. It really fucks with your mind. After a few hours in there, in absolutely deafening silence, you start hearing voices. Voices of people from your past and present. One's you try to forget, and others you never want to. You enter this subliminal state where you start seeing yourself from an external point of view, and you dissolve away from yourself. Once I got out of confinement, it took me weeks to adjust from my new perceived reality. Needless to say, I never tried making desserts at the prison ever again.
+
+********************************************************
+
+ALright, I'm here. Doesn't look like anything's been touched in a while. I'm going to open up a few of these boxes and see if there's something I can use. Score! There's some swedish meatballs, freeze-dried chicken soup, and what do you know.. There's even some fruit cake. I'm so glad I made my way over here. I'm going to finish eating these away from the microphone and then head back to the brig. I'll keep you posted.
+
+********************************************************
+
+Okay, I'm back. Now that I'm fed, I think I need to start thinking about a way to get off the ship and back to Earth. Where do you think I should head to first? The escape pod module should have pods I can use to escape.
+
+[[ answer: I think you should go to the escape module|node55]] 
+[[ answer: I think you should go to the medical module|node56]] 
+[[ answer: I think you should go to the engineering wing|node57]] 
+[[ answer: I think you should go to the power and guidance module|node58]]</body>
 		<position x="-5636" y="3392"></position>
 		<colorID>4</colorID>
 	</node>
@@ -592,7 +623,19 @@ Okay, so quick update on my situation here. I don't see a single person on the m
 	<node>
 		<title>node50</title>
 		<tags>candace_awake no_weapon is_hungry</tags>
-		<body>Empty Text</body>
+		<body>Hmm... Maybe. The medical module might have something I need. They might even have glucose, which should keep my hydrated. Okay, to the medical module then!
+Speaking of the medical module, as a kid, I'd always wanted to be a doctor. I loved chemistry and biology in high school, and I knew if I just put in the effort, I could do it. Everyone else in the class wanted to be an astronaut or an aerospace engineer. I was always the black sheep for not sticking with the agenda. Needless to say, my passion for chemistry, didn't really pay for my tuition at college, so I became a drug dealer instead. You know, the classic story of the poor kid resorting to selling drugs to get through college. Well, I'm not proud of what I did. I've hurt countless people in pursuit of monetary rewards. I had never once stopped to consider how the repercussions of my actions hurt everyone around me. Well, in the end, I paid the price and ended up in jail. The irony. More than half of my class would have been more than happy to take my place on board this ship. But I ended up here. Hey, whatever it takes to make amends.
+
+Alright, I'm almost at the medical module. Wait, are those voices?
+
+Prisoner #1 (muffled) : You said this was all going to work out! All that's worked out is my bloody arm, and a growling abdomen. I knew we shouldn't have done it.
+Prisoner #2 (muffled) : Oh, and you much rather would have preferred slaving away for an eternity on a planet that's literally one giant desert. 
+Prisoner #1 (muffled) : No one said it would be an eternity. They said six months, and we would be free to go bac-. 
+Prisoner #2 (muffled) : Yeah! Of course! They spent billions of dollars getting us here, only to fly us back in six months. They were never going to let us leave. We would have spend the rest of our sad, sorry lives there. I knew you were naive, but by God, I didn't think you were dumb enough to believe in these insane fantasies you're constructing.
+Prisoner #1 (muffled) : ENOUGH! I've had it. You've been bossing me around this entire time. Ever since we got assigned the same quadrant to clean up after, you've treated me like shit. You're not the boss of me! I'm the boss of me! 
+Prisoner #2 (muffled) : Yeah, right. Like you'd get anything done without me. I could have easily let you die with the rest of the prisoners without skipping a beat. So I'd like you to know that if you ever feel like joining the rest of the ship, just tell me. I can make it quick and painless. It would do me a lot of good, not having to drag your ass around every where I go. If I had a- *skid sounds* Who's there! Hello! Is someone there? We won't hurt you. We just want to talk! Hello!
+What the hell? There are other survivors on the ship? And wait, what do they mean, they're responsible. I'm not staying to find out *running sounds*
+************************************************************</body>
 		<position x="-3091" y="3382"></position>
 		<colorID>4</colorID>
 	</node>
@@ -630,5 +673,33 @@ Okay, so quick update on my situation here. I don't see a single person on the m
 		<body>Empty Text</body>
 		<position x="4938" y="4405"></position>
 		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>node55</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-6025" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node56</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5805" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node57</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5585" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node58</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5365" y="3996"></position>
+		<colorID>5</colorID>
 	</node>
 </nodes>

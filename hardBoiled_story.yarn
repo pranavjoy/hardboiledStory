@@ -568,7 +568,20 @@ Hey, I was wondering. Do you think I'll have to go back to jail if I escape and 
 	<node>
 		<title>node44</title>
 		<tags></tags>
-		<body>Empty Text</body>
+		<body>Yeah, I am quite hungry. I don't know how long I could have kept going without food. Looks like "Functional Cargo Module" it is. I wonder what they have in there. Maybe some dehydrated tomato soup. Ooh.. Or maybe, some pureed beef and vegetables out of a tube. But maybe, just maybe, they might have *gasps in excitement* some freeze-dried pineapple fruit cake! I love deserts, but they're hard to come by in prison. I mean, we could get a moon cake once in a while from the commissary, but a real dessert? Unlikely. I once had my ward mate who works in the kitchen, steal ingredients one at a time, so that by the end of the week, we would have enough to make a banana pudding. By the fourth day, we really thought we could get away with it. But instead of dessert, we got thrown in a week of solitary once they did a random spot check, and found out we were stealing from the kitchen. I would love to say it was worth it, but nothing is worth solitary. It really fucks with your mind. After a few hours in there, in absolutely deafening silence, you start hearing voices. Voices of people from your past and present. One's you try to forget, and others you never want to. You enter this subliminal state where you start seeing yourself from an external point of view, and you dissolve away from yourself. Once I got out of confinement, it took me weeks to adjust from my new perceived reality. Needless to say, I never tried making desserts at the prison ever again.
+
+********************************************************
+
+ALright, I'm here. Doesn't look like anything's been touched in a while. I'm going to open up a few of these boxes and see if there's something I can use. Score! There's some swedish meatballs, freeze-dried chicken soup, and what do you know.. There's even some fruit cake. I'm so glad I made my way over here. I'm going to finish eating these away from the microphone and then head back to the brig. I'll keep you posted.
+
+********************************************************
+
+Okay, I'm back. Now that I'm fed, I think I need to start thinking about a way to get off the ship and back to Earth. Where do you think I should head to first? The escape pod module should have pods I can use to escape.
+
+[[ answer: I think you should go to the escape module|node55]] 
+[[ answer: I think you should go to the medical module|node56]] 
+[[ answer: I think you should go to the engineering wing|node57]] 
+[[ answer: I think you should go to the power and guidance module|node58]]</body>
 		<position x="-5636" y="3392"></position>
 		<colorID>4</colorID>
 	</node>
@@ -660,5 +673,33 @@ What the hell? There are other survivors on the ship? And wait, what do they mea
 		<body>Empty Text</body>
 		<position x="4938" y="4405"></position>
 		<colorID>0</colorID>
+	</node>
+	<node>
+		<title>node55</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-6025" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node56</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5805" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node57</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5585" y="3996"></position>
+		<colorID>5</colorID>
+	</node>
+	<node>
+		<title>node58</title>
+		<tags></tags>
+		<body>Empty Text</body>
+		<position x="-5365" y="3996"></position>
+		<colorID>5</colorID>
 	</node>
 </nodes>
